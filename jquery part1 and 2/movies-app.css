@@ -1,0 +1,14 @@
+.titleTop {
+    font-size: 1.2em;
+}
+ 
+.ratingBottom {
+  font-size: 1.2em;
+}
+
+.deleteList {
+  cursor:pointer;
+  border:none;
+  color:red;
+}
+
