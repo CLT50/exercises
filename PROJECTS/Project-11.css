@@ -1,0 +1,67 @@
+/* This CSS sheet is linked with html-Project-1.html*/
+.contactInfo {color: rgb(195, 15, 204);}
+
+h1 {background-color: rgb(182, 185, 190);
+    color: rgb(22, 47, 100);
+}
+
+h2 {font-family: Arial, Helvetica, sans-serif;
+    color: rgb(38, 20, 121)}
+
+h2 {color: black(8, 8, 8);
+    font-size: 1.3em;
+}
+
+h3 {text-decoration-line: underline;}
+
+h4 {font-size: 1.2em;
+    text-decoration-line: underline;
+    }
+
+h5 {background-color: rgb(157, 179, 209);
+    color: rgb(2, 20, 2);
+    font-size: 1.2em;}
+
+.tools {color:brown;
+        text-decoration: underline;}
+
+table {font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.5em;}
+
+.column1 {background-color:rgb(141, 179, 141) ;}
+.column2 {background-color:rgb(102, 180, 102) ;}
+.column3 {background-color:rgb(14, 153, 14) ;}
+
+
+h5 {background-color: rgb(153, 178, 209);
+    color: rgb(2, 20, 2);
+    font-size: 1.2em;
+    font-weight: bold;}
+
+/*Box Model*/
+
+h1 {margin-right: 50em;}
+
+.pic {border-color:rgb(230, 162, 16);
+      border-width:15px;
+      border-style:inset;}
+
+h5 {margin-right: 80em;}
+
+a {width: 20px;
+    height: 20px;
+    border-color: rgb(231, 68, 95);
+    border-style: dashed double;
+    border-width:5px;}
+
+
+
+
+
+
+
+
+
+
+

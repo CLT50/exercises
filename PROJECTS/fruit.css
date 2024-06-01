@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: linear-gradient(to right, yellow,  orange);
+}
+
+input {
+ display: flex;
+ height: 50px;
+ align-items: center;
+ padding: 10px 20px;
+}
+
+.search-container {
+ width: 300px;
+ background: orange;
+ margin: 350px auto 0;
+ border-radius: 5px;
+}
+
+
+.search-container input {
+ /* TODO */
+}
+
+.search-container .suggestions {
+   max-height: 250px;
+   overflow-y:scroll;
+}
+
+ul {
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.suggestions{
+  mex-height: 300px;
+  overflow-y: hidden;
+}
+
+
+.suggestions ul {
+  flex: 1;
+}
+
+
+ul li {
+  lisr-style:non;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+
+ul li:hover {
+  background: orangered
+}
+

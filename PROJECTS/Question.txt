@@ -1,0 +1,25 @@
+function double (arr){
+    let newArr = [];
+    for(let i = 0; i < arr.length; i++){
+        newArr.push(arr[i] * 2);
+    }
+    return newArr;
+}
+
+
+
+
+
+
+Are we creating new array?  or are we modifying the given array, if we are we don't need to declare variable 0
+
+[1,2,3]  ---> [2,4,6]
+
+function double (arr){
+    let newArr = [];
+    let doubled Num=0;
+	
+    for(let i = 0; i < arr.length; i++){
+       let doubledNum=(arr[i] * 2);
+       {newArr+=doubledNum}
+    return newArr;}

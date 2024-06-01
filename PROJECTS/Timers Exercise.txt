@@ -1,0 +1,19 @@
+function countDown(num){
+let time = setInterval(function()
+{ num--;
+ if(num <= 0)
+{clearInterval(time);
+console.log('DONE!'); }
+else {console.log(num);}}, 1000)}
+
+
+
+function randomGame(){
+let num;
+let tries = 0;
+let randomNum = setInterval(function(){
+num = Math.random();
+tries++
+if(num > .75) 
+{clearInterval(randomNum);
+ console.log(tries + " try/tries.");}}, 1000)}
