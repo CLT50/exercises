@@ -1,0 +1,20 @@
+#game div {
+    border: 1px solid black;
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+  }
+
+h1 {
+    text-align: center;
+}
+
+  .restart-btn {
+    margin: 1em auto;
+    padding: 0.3em 1.3em;
+    display: block;
+    cursor:pointer;
+    border-radius: 10px;
+    background-color: lightblue;
+  }
